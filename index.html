@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Liam Biddle</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
+  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
+  <link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>
+  💻</text></svg>"/>
   <!--
     - custom css link
   -->
@@ -23,6 +24,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/yxr5hlo.css"> -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -42,19 +47,23 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img class="avatar-image" src="./assets/images/liam.jpeg" alt="Liam Biddle">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Liam Biddle">Liam Biddle</h1>
 
-          <p class="title">Web developer</p>
+          <h2 class="title">Engineering and Computer Science Student</h2>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
+          <table>
+            <tr>
+              <th><span>Contact Details</span></th>
+              <th><ion-icon name="chevron-down-outline"></ion-icon></th>
+            </tr>
+          </table>
+          
         </button>
 
       </div>
@@ -66,7 +75,7 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
-
+            <a href="mailto:biddleliam@outlook.com">
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
@@ -74,36 +83,23 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:biddleliam@outlook.com" class="contact-link">biddleliam@outlook.com</a>
             </div>
-
+            </a>
           </li>
 
           <li class="contact-item">
-
+            <a href="tel:+61467973261">
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+              <ion-icon name="call-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="tel:+61467973261" class="contact-link">+61 467-973-261</a>
             </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
+          </a>
 
           </li>
 
@@ -116,7 +112,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Sydney, NSW, Australia</address>
             </div>
 
           </li>
@@ -128,19 +124,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://linkedin.com/in/liambiddle" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://github.com/biddlel" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/liambids/" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -165,7 +161,7 @@
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+      <!-- <nav class="navbar">
 
         <ul class="navbar-list">
 
@@ -191,11 +187,7 @@
 
         </ul>
 
-      </nav>
-
-
-
-
+      </nav> -->
 
       <!--
         - #ABOUT
@@ -208,19 +200,19 @@
         </header>
 
         <section class="about-text">
+          <p>This website is a WIP</p>
+          
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            I'm a Mechatronics and Computer Science student from Sydney, Australia, currenting working in the hospitality industry.
+            During my time at UNSW I've built a solid technical background coming from my strong interest in robotics, programming and cyber security. 
           </p>
 
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
+          <!-- <p>
+            My university program has given me the ability to experience a wide variety of project based work in teams and individually, while also allowing me to grow my skill base in technical areas.
+            My experience in the hospitality industry has allowed me to develop my team work skills especially in a high stress environment, and let me understand how important it is for a good team dynamic.
+            I have a wide variety of experience from high volume food and beverage service, to team based projects such as creating a maze solving and traversing robot.
+          </p> -->
+
         </section>
 
 
@@ -228,7 +220,7 @@
           - service
         -->
 
-        <section class="service">
+        <!-- <section class="service">
 
           <h3 class="h3 service-title">What i'm doing</h3>
 
@@ -301,14 +293,14 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
-
+        
         <!--
           - testimonials
         -->
 
-        <section class="testimonials">
+        <!-- <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -404,14 +396,14 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
 
         <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+        <!-- <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
 
@@ -449,14 +441,14 @@
 
           </section>
 
-        </div>
+        </div> -->
 
 
         <!--
           - clients
         -->
 
-        <section class="clients">
+        <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
 
@@ -500,12 +492,9 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
       </article>
-
-
-
 
 
       <!--
@@ -1146,7 +1135,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed/v1/place?q=UNSW+Sydney,+Sydney+NSW,+Australia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8""
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1193,8 +1182,8 @@
   <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 
