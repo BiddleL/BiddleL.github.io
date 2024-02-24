@@ -1354,7 +1354,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .title { 
     padding: 5px 18px; 
-    max-width: 250px;}
+    width: 100%;
+  }
 
   .info_more-btn {
     top: -30px;
